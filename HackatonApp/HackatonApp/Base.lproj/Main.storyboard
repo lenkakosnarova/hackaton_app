@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="G3c-1v-Uh5">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="tWJ-iJ-0Ll">
+            <objects>
+                <navigationController id="G3c-1v-Uh5" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="CVQ-kg-TCE">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="B40-nN-4mM"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JyR-bU-Oa0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1419" y="-1850"/>
+        </scene>
+        <!--Detail View Controller3-->
+        <scene sceneID="eHl-PC-Fwk">
+            <objects>
+                <viewController id="z3J-Da-AEA" customClass="DetailViewController3" customModule="HackatonApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="9gA-77-bbh"/>
+                        <viewControllerLayoutGuide type="bottom" id="lIP-gO-XuV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Fmf-Zn-YAt">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Feeling down? Take a shot!" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DHC-Ey-1zZ">
+                                <rect key="frame" x="23" y="43" width="233" height="294"/>
+                                <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="40"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="vodka" translatesAutoresizingMaskIntoConstraints="NO" id="trq-KO-2bP">
+                                <rect key="frame" x="30" y="345" width="218" height="188"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="19z-cd-P5n" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1007" y="-488"/>
+        </scene>
+        <!--Detail View Controller2-->
+        <scene sceneID="KfT-zp-ef6">
+            <objects>
+                <viewController id="tAP-S2-bzv" customClass="DetailViewController2" customModule="HackatonApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="azY-MV-275"/>
+                        <viewControllerLayoutGuide type="bottom" id="5do-gb-yfT"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="352-Kq-WjV">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Wink wink" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LFp-vs-k2c">
+                                <rect key="frame" x="49" y="148" width="217" height="294"/>
+                                <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="40"/>
+                                <color key="textColor" red="1" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3kD-wm-Eln" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-167" y="-1640"/>
+        </scene>
+        <!--Detail View Controller4-->
+        <scene sceneID="ffy-bB-Vt5">
+            <objects>
+                <viewController id="3od-zJ-Pr6" customClass="DetailViewController4" customModule="HackatonApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="nxz-4p-Q0S"/>
+                        <viewControllerLayoutGuide type="bottom" id="dpG-ln-SCR"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="PId-QJ-3nb">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="phillip morris" translatesAutoresizingMaskIntoConstraints="NO" id="WNm-pG-qOw">
+                                <rect key="frame" x="16" y="99" width="338" height="407"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="flq-a2-25f" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-355" y="-520"/>
+        </scene>
+        <!--Detail View Controller1-->
+        <scene sceneID="mvh-7l-QlV">
+            <objects>
+                <viewController id="Qqp-er-F9f" customClass="DetailViewController1" customModule="HackatonApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="lwZ-fd-uUO"/>
+                        <viewControllerLayoutGuide type="bottom" id="aRP-BI-vqI"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Db0-rw-tNh">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Feeling crazy? Go crazyyyy!" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bJd-8l-sJP">
+                                <rect key="frame" x="60" y="100" width="217" height="294"/>
+                                <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="29"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="mzE-Nu-ma5"/>
+                    <connections>
+                        <outlet property="MessageLabel" destination="bJd-8l-sJP" id="4XU-ZS-l2f"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ok8-7V-Hbr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-190" y="-1152"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="HackatonApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="crazy" translatesAutoresizingMaskIntoConstraints="NO" id="pMe-Ub-Ht0">
+                                <rect key="frame" x="8" y="183" width="137" height="127"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sad" translatesAutoresizingMaskIntoConstraints="NO" id="I9y-1M-DUq">
+                                <rect key="frame" x="8" y="337" width="137" height="127"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="smokey" translatesAutoresizingMaskIntoConstraints="NO" id="u0c-7i-unD">
+                                <rect key="frame" x="168" y="337" width="137" height="127"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="winking" translatesAutoresizingMaskIntoConstraints="NO" id="gWh-tY-uM3">
+                                <rect key="frame" x="168" y="183" width="137" height="127"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9uk-Fh-Je0">
+                                <rect key="frame" x="197" y="195" width="90" height="103"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="crazy:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pzl-3s-EoE"/>
+                                    <segue destination="tAP-S2-bzv" kind="show" id="tpB-c3-9Yo"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D3O-Wp-gOT">
+                                <rect key="frame" x="31" y="195" width="90" height="103"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="crazy:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5ff-fZ-FFa"/>
+                                    <segue destination="Qqp-er-F9f" kind="show" identifier="crazy" id="xoc-JS-rN9"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i5n-Sh-1jY">
+                                <rect key="frame" x="31" y="349" width="90" height="103"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="crazy:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BAF-oj-otK"/>
+                                    <segue destination="z3J-Da-AEA" kind="show" id="GrZ-do-Gcm"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9pf-ye-qeK">
+                                <rect key="frame" x="191" y="349" width="90" height="103"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="crazy:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mmw-6g-tu1"/>
+                                    <segue destination="3od-zJ-Pr6" kind="show" id="4Ui-en-8kH"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="What's my mood today?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="58S-ap-0p5">
+                                <rect key="frame" x="0.0" y="72" width="306" height="75"/>
+                                <fontDescription key="fontDescription" name="PartyLetPlain" family="Party LET" pointSize="49"/>
+                                <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="highlightedColor" red="0.17939531976758794" green="0.12692025250631345" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="shadowColor" red="0.086274512112140656" green="0.074509806931018829" blue="0.023529414087533951" alpha="1" colorSpace="deviceRGB"/>
+                                <size key="shadowOffset" width="1" height="-1"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="jmd-I2-X77"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-974" y="-1166"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="crazy" width="1000" height="1000"/>
+        <image name="phillip morris" width="800" height="598"/>
+        <image name="sad" width="1600" height="1600"/>
+        <image name="smokey" width="640" height="589"/>
+        <image name="vodka" width="800" height="800"/>
+        <image name="winking" width="400" height="400"/>
+    </resources>
+</document>
